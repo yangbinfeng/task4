@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <title>task4</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="task4.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div class="header">
-        <div class="box1">关闭</div>
-        <div class="box2">登陆</div>
-        <div class="box3">注册</div>
+    <button onclick="window.close()">关闭</button>
+    <div class="box1">登陆</div>
+    <div class="box2"><a href="http://www.jnshu.com/login/1/"> 注册</a></div>
 </div>
-<div class="content">
-    <div class="box4">
+<form action="" method="post" class="contact_form" name="contact_form">
+    <div class="box3">
         <img src="./手机.png" alt="手机"/><input type="text" placeholder="请输入手机号"/>
     </div>
-    <div class="box5">
-        <img src="./密码.png" alt="密码"/><input type="text" placeholder="请输入密码"/>
+    <div class="box4">
+        <img src="./密码.png" alt="密码"/><input type="password" placeholder="请输入密码"/>
     </div>
-</div>
+    <input type="submit" class="login" value="登陆"/>
+</form>
 <div class="footer">
-    <input type="button" class="login" value="登陆">
-    <span>忘记密码？</span>
+    <a href="http://www.jnshu.com/forgetPassword">忘记密码？</a>
 </div>
 </body>
 </html>

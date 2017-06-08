@@ -10,14 +10,17 @@ html,body{
     position:fixed;
     width:100%;
 }
-.box1{
+button{
     padding:30px;
     float:left;
     font-size: 32px;
     font-family: "Heiti SC";
     color: rgb(255, 255, 255);
+    background-color: rgb(95,192,205);
+    border:none;
+    outline:none;
 }
-.box2{
+.box1{
     padding:28px;
     float:left;
     font-size: 36px;
@@ -27,18 +30,19 @@ html,body{
     left:50%;
     transform: translatex(-50%);
 }
-.box3{
+.box2 a{
     padding:30px;
     float:right;
     font-size: 32px;
     font-family: "Heiti SC";
     color: rgb(255, 255, 255);
+    text-decoration:none;
 }
-.content{
+.contact_form{
     padding-top: 93px;
 }
-.box4,.box5{
-    margin:16px 0;
+.box3,.box4{
+    margin-top:16px;
     background-color: white;
 }
 img{
@@ -55,16 +59,15 @@ input{
     outline: none;
 }
 .login{
-    display:block;
     width:100%;
+    margin-top:69px;
     padding:34px;
-    text-align: center;
     font-size: 36px;
     font-family: "Heiti SC";
     color: rgb(255, 255, 255);
     background-color: rgb(95,192,205);
 }
-span{
+.footer a{
     padding:20px 34px;
     float:right;
     font-size: 32px;
@@ -72,7 +75,7 @@ span{
     color: rgb(95, 192, 205);
 }
 .footer{
-    margin:53px 0 684px 0;
+    padding-bottom:684px;
 }
 
 
